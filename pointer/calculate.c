@@ -5,7 +5,7 @@ int main(){
     int *ptr = var;
     for(int i=0; i< size; i++){
         printf("var: %d\n", var[i]);
-        printf("var address: %x\n", &var[i]);
+        printf("var address: %X\n", &var[i]);
         printf("ptr: %d\n", *ptr);
         printf("ptr address: %p\n", ptr);
         ptr++;

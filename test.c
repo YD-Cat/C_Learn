@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<time.h>
+#include<windows.h>
 int delay()
 {
     int a=10000000;

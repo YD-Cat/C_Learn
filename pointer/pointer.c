@@ -7,7 +7,7 @@
 int main(){
     int var = 20;
     int *ip;
-    ip=&var;
+    ip=&var; // 将指针指向一个变量的地址
     printf("-----------------------\n");
     printf("var: %#x\n", &var);
     printf("ip: %#x\n", ip);
@@ -15,14 +15,14 @@ int main(){
     printf("value of ip: %d\n", *ip);
     
     printf("-----------------------\n");
-    *ip=10;
+    *ip=10; // 将指针指向的地址上的值变成10，也改变了变量的值
     printf("var: %#x\n", &var);
     printf("ip: %#x\n", ip);
     printf("value of var: %d\n", var);
     printf("value of ip: %d\n", *ip);
 
     printf("-----------------------\n");
-    var=30;
+    var=30; // 变量自己改变自身的值，指针所指向的地址上的值也改变
     printf("var: %#x\n", &var);
     printf("ip: %#x\n", ip);
     printf("value of var: %d\n", var);

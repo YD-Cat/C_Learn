@@ -16,6 +16,10 @@ int main(){
     printf("p+=2->*p: %d\n", *p); // 输出跳过之后的第一个元素
     printf("p+=2->p[2]: %d\n", p[2]);// 输出跳过之后的第三个元素，使用形式和数组一致，考虑之后不使用此形式，容易造成混淆
 
+    p = x[2];
+    printf("*p = x[2] address: %p\n", p);
+    printf("*p = x[2] address: %d\n", *p);
+
     printf("----------数组指针----------\n");
     // 一维数组
     int arr_1[] = {1,2,3,4,5,6,7,8,9,0};
@@ -23,7 +27,7 @@ int main(){
     pArr_1 = arr_1; // 指向一个一维数组
 
     printf("%d: %p\n", arr_1[0], &arr_1[0]);
-    printf("%d: %p\n", pArr_1[0], pArr_1);
+    printf("%d: %p\n", *pArr_1[0], pArr_1);
 
 
 
