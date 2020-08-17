@@ -24,10 +24,10 @@
 1. 安装Mingw64
 2. VS Code配置好Mingw64
 3. 拉取项目，用VS Code打开整个文件夹
-4. 打开需要运行的.c文件，按F5，选择<kbd>C++(GDB/LLDB)</kbd>
-5. 再选择<kbd>gcc.exe - 生成和调试活动文件</kbd>
+4. 打开需要运行的.c文件，按F5，选择**C++(GDB/LLDB)**
+5. 再选择**gcc.exe - 生成和调试活动文件**
 
-<img src="1.png" style="vertical-align: middle"> ———> <img src="2.png" style="vertical-align: middle">
+<img src="1.png"> ———> <img src="2.png">
 
 #### 清楚生成的exe文件
 - 直接运行del_exe.bat文件即可，会删除该文件的目录下所有exe文件
