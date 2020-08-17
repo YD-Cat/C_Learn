@@ -1,4 +1,5 @@
 #include<stdio.h>
+// 屏幕输出
 int main(void){
 
     int a1=20, a2=345, a3=700, a4=22;

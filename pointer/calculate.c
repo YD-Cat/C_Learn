@@ -1,5 +1,6 @@
 #include<stdio.h>
-#define size 3
+#define size 3 // 宏定义
+// 指针计算
 int main(){
     int var[size]={20,21,22};
     int *ptr = var;

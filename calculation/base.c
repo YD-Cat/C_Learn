@@ -1,4 +1,5 @@
 #include<stdio.h>
+// 基础数值计算
 int main(){
     int a= 12;
     int b= 100;

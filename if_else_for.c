@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<time.h>
-#define true 1
+#define true 1 // C没有布尔值，大于0为true
+// 判断和循环
 int main(){
     time_t startTime;
     struct tm *p;

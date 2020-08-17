@@ -1,4 +1,5 @@
 #include<stdio.h>
+// char
 int main(void){
     char a = '\61';
     char b = '\141';

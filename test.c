@@ -9,15 +9,15 @@ int delay()
         num *= i;
     }
 }
-
+// 计算运算时间，单位为秒
 int main(){
     time_t start, end;
     time(&start);
     system("pause");
     time(&end);
 
-    printf("%d", start);
-    printf("%d", end);
+    printf("%d\n", start);
+    printf("%d\n", end);
 
     return 0;
 }

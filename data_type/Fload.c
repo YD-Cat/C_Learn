@@ -1,4 +1,5 @@
 #include <stdio.h>
+// 浮点数
 int main(void){
     float a = 0.302;
     float b = 128.101;

@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
+ * 指针
  * 1.变量保存着值，而变量需要放在一个地方上
  * 2.指针正是指向着这个地方
  */
-
 int main(){
     int var = 20;
     int *ip;

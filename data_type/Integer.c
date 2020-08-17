@@ -1,4 +1,5 @@
 #include "stdio.h"
+// 整型
 int main(void){
     short s = 10;
     int i = 306587;
