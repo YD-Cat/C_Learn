@@ -29,5 +29,5 @@
 
 <img src="1.png"> ———> <img src="2.png">
 
-#### 清除生成的exe文件
+#### 清楚生成的exe文件
 - 直接运行del_exe.bat文件即可，会删除该文件的目录下所有exe文件

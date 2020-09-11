@@ -1,6 +1,23 @@
 #include<stdio.h>
 int main(){
-    printf("Hello World");
-    printf("\a");
+    int s = 1, h;                    // 数值和高度
+    int i, j;                        // 循环计数
+    scanf("%d", &h);                 // 输入层数
+    printf("1\n");                   // 输出第一个 1
+    for (i = 2; i <= h; s = 1, i++)         // 行数 i 从 2 到层高
+    {
+        printf("1 ");                // 第一个 1
+        for (j = 1; j <= i - 2; j++){// 列位置 j 绕过第一个直接开始循环
+            //printf("%d ", (s = (i - j) / j * s));
+            // s = (i - j) * s / j)
+            int a = i - j;
+            int t = a * s / j;
+            printf("%d ", t);
+            s = t;
+        } 
+        printf("1\n");               // 最后一个 1，换行
+    }
+    getchar();                       // 暂停等待
     return 0;
 }
+
