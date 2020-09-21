@@ -34,8 +34,9 @@
 
 <img src="1.png"> ———> <img src="2.png">
 
-#### 清楚生成的exe文件
-- 直接运行del_exe.bat文件即可，会删除该文件的目录下所有exe文件
+#### 清楚生成的exe文件 <span style="color:red">！！慎用！！</span>
+
+- 直接运行del_exe.bat文件即可，会删除该文件的目录下所有exe文件 
 </details>
 
 #### 笔记
