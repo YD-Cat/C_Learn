@@ -1,5 +1,10 @@
 # C_Learn 学习笔记
 最近打算重新学一遍C，故在此记录下笔记，不定时更新
+
+<details>
+<summary style="font-weight:bold">使用说明</summary>
+
+
 #### 运行环境
 <table>
     <tbody>
@@ -29,5 +34,9 @@
 
 <img src="1.png"> ———> <img src="2.png">
 
-#### 清除生成的exe文件
+#### 清楚生成的exe文件
 - 直接运行del_exe.bat文件即可，会删除该文件的目录下所有exe文件
+</details>
+
+#### 笔记
+- <a href="./pointer/C_Learn_Pointer.md">指针笔记</a>
