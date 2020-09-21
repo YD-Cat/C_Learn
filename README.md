@@ -34,9 +34,14 @@
 
 <img src="1.png"> ———> <img src="2.png">
 
-#### 清楚生成的exe文件 <span style="color:red">！！慎用！！</span>
-
-- 直接运行del_exe.bat文件即可，会删除该文件的目录下所有exe文件 
+#### 清除生成的文件 <span style="color:red">！！慎用！！</span>
+脚本均在<kbd>_bat_script</kbd>文件夹内
+1. 清除生成的exe文件
+   运行<kbd>del_exe.bat</kbd>文件即可，会删除bat文件上一级目录下，包括子目录的所有exe文件
+2. 清除vsvode生成的文件
+   运行<kbd>del_vscode.bat</kbd>文件即可，会删除bat文件上一级目录下的<kbd>.vscode</kbd>文件夹
+3. 清除exe和vsvode生成的文件
+   运行<kbd>init.bat</kbd>文件即可
 </details>
 
 #### 笔记
