@@ -8,7 +8,6 @@ struct Book{
 int main(){
     struct Book book;
     book.id=9;
-    // strcpy(book.name, "Hello Struct");
     book.name="Hello Struct";
     book.price=10;
 
