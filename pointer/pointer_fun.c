@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
 // 取最大值
 int max(int x, double y){
     return x>=y?x:y;
@@ -11,6 +14,18 @@ int forFunc(int x, int count, int y, int(*p)(int, double)){
         x++;
     }
     return p(x,y);
+}
+
+void populate_array(int *array, int arraySize, int (*getNextValue)(void)){
+    int i;
+    for ( i = 0; i < arraySize; i++)
+    {
+        *(array+i)=getNextValue();
+    }
+}
+
+int getNextRandomValue(){
+    return rand();
 }
 
 int main(){
@@ -26,5 +41,11 @@ int main(){
     int j = forFunc(x, 5, y, &max);
     printf("%d\n", j);
 
+    int array[10];
+    srand((unsigned)time(NULL));
+    populate_array(array, 10, &getNextRandomValue);
+    for (int k = 0; k < 10; k++){
+        printf("%d ", array[k]);
+    }
     return 0;
 }
