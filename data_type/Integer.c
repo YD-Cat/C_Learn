@@ -24,4 +24,11 @@ int main(void){
     printf("a=%#hd, b=%#d, c=%#ld\n",sa,ib,lc);
     printf("a=%#hx, b=%#x, c=%#lx\n",sa,ib,lc);
     printf("a=%#hX, b=%#X, c=%#lX\n",sa,ib,lc);
+
+    int ii = -1;
+    if(ii){
+        printf("真");
+    }else{
+        printf("假 ");
+    }
 }

@@ -53,7 +53,10 @@ int main(){
     printf("\n--获取str2在str1出现的位置，返回的是指针，指向str1中字符串值为str2出现的地址\n");
     p = strstr(str1, str2);
     if(p!=NULL){
-        printf("%c\n", *p);
+        printf("%c\n", *(p+0));
+        printf("%c\n", *(p+1));
+        printf("%c\n", *(p+2));
+        printf("%c\n", *(p+3));
     }else{
         printf("not found the string\n");
     }
